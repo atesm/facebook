@@ -1,0 +1,141 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user is on the facebook login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9998000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the facebook login page",
+            "match": {
+              "location": "stepdefinitions.Facebook_Stepdefinitions.user_is_on_the_facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-30T03:00:21.749Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "testing the login functionality",
+        "description": "",
+        "id": "facebook-login;testing-the-login-functionality;test-data-for-the-facebook-login;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1698000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1774000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters email in  the email box \"bdddemo12345@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bdddemo12345@gmail.com\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepdefinitions.Facebook_Stepdefinitions.user_enters_email_in_the_email_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 662000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters password in the password box \"face12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"face12345\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepdefinitions.Facebook_Stepdefinitions.user_enters_password_in_the_password_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 447000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "stepdefinitions.Facebook_Stepdefinitions.user_clicks_on_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11086000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verifies the login is successful or not",
+            "match": {
+              "location": "stepdefinitions.Facebook_Stepdefinitions.user_verifies_the_login_is_successful_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login",
+    "description": "",
+    "id": "facebook-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/facelogin.feature",
+    "tags": [
+      {
+        "name": "@smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
